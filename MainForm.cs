@@ -16,6 +16,8 @@ namespace AbraControlPanel
         public MainForm()
         {
             InitializeComponent();
+            SetSocket();
+
         }
 
 
@@ -23,19 +25,32 @@ namespace AbraControlPanel
         {
 
             var socket = IO.Socket("http://192.168.100.104:8000");
+            //socket.Connect();
+
             socket.On(Socket.EVENT_CONNECT, () =>
             {
-                socket.Emit("hi");
+                socket.Emit("tweet");
 
             });
 
-            socket.On("hi", (data) =>
+            socket.On("tweet", (data) =>
             {
 
-                textBox1.Text += data + Environment.NewLine;
+                AppendTextBox(data + Environment.NewLine);
                 socket.Disconnect();
             });
 
+        }
+
+
+        public void AppendTextBox(string value)
+        {
+            if (InvokeRequired)
+            {
+                this.Invoke(new Action<string>(AppendTextBox), new object[] { value });
+                return;
+            }
+            textBox1.Text += value;
         }
 
 

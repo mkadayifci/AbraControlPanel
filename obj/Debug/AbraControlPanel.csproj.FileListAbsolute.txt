@@ -12,3 +12,4 @@ C:\Abra\SourceCode\AbraControlPanel\bin\Debug\WebSocket4Net.dll
 C:\Abra\SourceCode\AbraControlPanel\bin\Debug\Newtonsoft.Json.xml
 C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.exe
 C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.pdb
+C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.csprojResolveAssemblyReference.cache
