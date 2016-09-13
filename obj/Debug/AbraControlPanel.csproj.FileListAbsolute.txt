@@ -1,0 +1,2 @@
+C:\Abra\SourceCode\AbraControlPanel\AbraControlPanel\bin\Debug\AbraControlPanel.exe.config
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\AbraControlPanel.exe.config
