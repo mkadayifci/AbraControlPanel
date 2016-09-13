@@ -37,7 +37,7 @@ namespace AbraControlPanel
             {
 
                 AppendTextBox(data + Environment.NewLine);
-                socket.Disconnect();
+                //socket.Disconnect();
             });
 
         }
