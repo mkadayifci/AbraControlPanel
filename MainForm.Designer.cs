@@ -53,6 +53,7 @@
             this.light1.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.light1.Size = new System.Drawing.Size(45, 161);
             this.light1.TabIndex = 1;
+            this.light1.Scroll += new System.EventHandler(this.light1_Scroll);
             // 
             // label1
             // 

@@ -13,6 +13,8 @@ namespace AbraControlPanel
 {
     public partial class MainForm : Form
     {
+        Socket socket = IO.Socket("http://192.168.100.104:8000");
+
         public MainForm()
         {
             InitializeComponent();
@@ -24,7 +26,6 @@ namespace AbraControlPanel
         public void SetSocket()
         {
 
-            var socket = IO.Socket("http://192.168.100.104:8000");
             //socket.Connect();
 
             socket.On(Socket.EVENT_CONNECT, () =>
@@ -53,6 +54,15 @@ namespace AbraControlPanel
             textBox1.Text += value;
         }
 
+        private void light1_Scroll(object sender, EventArgs e)
+        {
+            this.Text = light1.Value.ToString();
 
+            string message = "{ \"Action\" : \"SetLightBrightness\",\"LightId\":\"1\", \"Value\" : " + light1.Value.ToString() + "}";
+
+            socket.Emit("Command",message);
+
+
+        }
     }
 }
