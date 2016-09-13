@@ -1,2 +1,14 @@
 C:\Abra\SourceCode\AbraControlPanel\AbraControlPanel\bin\Debug\AbraControlPanel.exe.config
 C:\Abra\SourceCode\AbraControlPanel\bin\Debug\AbraControlPanel.exe.config
+C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.MainForm.resources
+C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.Properties.Resources.resources
+C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.csproj.GenerateResource.Cache
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\AbraControlPanel.exe
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\AbraControlPanel.pdb
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\EngineIoClientDotNet.dll
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\Newtonsoft.Json.dll
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\SocketIoClientDotNet.dll
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\WebSocket4Net.dll
+C:\Abra\SourceCode\AbraControlPanel\bin\Debug\Newtonsoft.Json.xml
+C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.exe
+C:\Abra\SourceCode\AbraControlPanel\obj\Debug\AbraControlPanel.pdb
